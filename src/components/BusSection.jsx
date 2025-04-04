@@ -6,7 +6,7 @@ import BusModal from "../assets/BusModal.jpg";
 
 const BuseSection = () => {
   return (
-    <div className="relative w-full h-[350px] sm:h-[400px] md:h-96 bg-gray-900 overflow-hidden">
+    <div className="relative w-full mt-[50px] h-[350px] sm:h-[400px] md:h-96 bg-gray-900 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image 
           src={BusModal} 

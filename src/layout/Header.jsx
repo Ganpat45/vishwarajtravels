@@ -74,7 +74,7 @@ const Header = () => {
         </div>
 
         
-        <nav className={`lg:flex items-center space-x-8 ${isOpen ? 'block' : 'hidden'} lg:block`}>
+        <nav className={`lg:flex justify-center  text-2xl space-x-8 ${isOpen ? 'block' : 'hidden'} lg:block`}>
           <ul className="flex flex-col lg:flex-row gap-8 lg:gap-12">
             <li>
               <Link href="/" className="hover:text-yellow-300 transition-colors">
@@ -108,8 +108,8 @@ const Header = () => {
               </svg>
             </div>
             <div>
-              <div className="text-lg">Email</div>
-              <a href="mailto:abhaydikshit@rediffmail.com" className="text-sm hover:text-yellow-300 transition-colors">abhaydikshit@rediffmail.com</a>
+              <div className="text-xl">Email</div>
+              <a href="mailto:abhaydikshit@rediffmail.com" className="text-xl hover:text-yellow-300 transition-colors">abhaydikshit@rediffmail.com</a>
             </div>
           </div>
 
@@ -120,8 +120,8 @@ const Header = () => {
               </svg>
             </div>
             <div>
-              <div className="text-lg">Call Now</div>
-              <a href="tel:+918459192776" className="text-sm hover:text-yellow-300 transition-colors">+91 8459192776</a>
+              <div className="text-xl">Call Now</div>
+              <a href="tel:+918459192776" className="text-xl hover:text-yellow-300 transition-colors">+91 8459192776</a>
             </div>
           </div>
         </div>

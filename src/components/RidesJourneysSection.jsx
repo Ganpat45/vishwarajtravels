@@ -16,7 +16,7 @@ const RidesJourneysSection = () => {
   ]);
 
   return (
-    <div className="min-h-screen bg-[#F5F5F5] py-12 px-4 sm:px-6 lg:px-8">
+    <div className="w-full mt-[50px] bg-[#F5F5F5] py-12 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto relative z-10">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
           
