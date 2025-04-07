@@ -73,7 +73,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className= "z-1 mt-[-180px] mb-[100px] w-full flex flex-col md:flex-row justify-between px-4 sm:px-6 md:px-8 ">
+      <div className= "z-1 mt-[-180px] mb-[100px] w-full flex flex-col md:flex-row justify-between px-4 sm:px-6 md:px-8">
 
         <div className="bg-gradient-to-br from-purple-800 to-purple-600 text-white p-2 sm:p-4 md:p-6 w-full md:w-1/3 rounded-lg shadow-md">
           <h2 className=" text-center text-xl sm:text-2xl md:text-3xl font-bold text-white">Ready to Travel?</h2>
@@ -84,7 +84,7 @@ const HeroSection = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
             </div>
-            <div className="ml-3 md:ml-4 text-center">
+            <div className="ml-3 md:ml-4  text-center">
               <p className=" text-xs sm:text-sm md:text-xll opacity-80">Call for detailed information</p>
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-white">+91 8459192776</p>
             </div>

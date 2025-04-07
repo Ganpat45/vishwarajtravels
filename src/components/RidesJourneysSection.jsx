@@ -74,6 +74,6 @@ const RidesJourneysSection = () => {
       </div>
     </div>
   );
-}
+};
 
 export default RidesJourneysSection;

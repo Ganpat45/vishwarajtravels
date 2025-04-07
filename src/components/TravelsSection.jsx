@@ -60,7 +60,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="md:w-3/4">
-            <p className="text-gray-700 text-xl">
+            <p className="text-gray-700 text-xl font-bold">
               We started Vishwaraj Travels to give people in rural areas a better way to travel. 
               With safe, comfortable, and eco-friendly buses, we're here to serve you! 
               Our goal is to make transportation accessible and stress-free for everyone, 
@@ -84,8 +84,8 @@ export default function Home() {
                   layout="responsive"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-indigo-900 mb-4">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <h3 className="text-2xl font-bold text-indigo-900  hover:text-[#000000] mb-4">{service.title}</h3>
+              <p className="text-gray-600 text-xl font-bold">{service.description}</p>
             </div>
           ))}
         </div>

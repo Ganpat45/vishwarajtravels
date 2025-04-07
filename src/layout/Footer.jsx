@@ -31,7 +31,7 @@ const Footer = () => {
               href="tel:+918459192776" 
               className="bg-yellow-500 hover:bg[#AE02FF] text-black font-bold py-2 px-4 rounded inline-flex items-center text-sm md:text-base"
             >
-              <FaPhoneAlt className="mr-2 flex-shrink-0" size={40} /> 
+              <FaPhoneAlt className="mr-2 flex-shrink-0" size={30} /> 
               +91 8459192776
             </a>
           </div>
@@ -45,12 +45,12 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/components-us" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/about-us" className="hover:text-yellow-500 transition duration-300 text-xl">
                   About Us
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/components" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/services" className="hover:text-yellow-500 transition duration-300 text-xl">
                   Services
                 </a>
               </li>
@@ -66,7 +66,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4 md:mb-6 ">Get In Touch</h3>
             <div className="flex items-center mb-3 md:mb-4">
               <FaPhoneAlt className=" text-yellow-500 mr-2 flex-shrink-0" size={24} /> 
-              <a href="tel:+918459192776" className="text-[#ffffff] hover:text-[#D51E00] font-bold transition-colors">
+              <a href="tel:+918459192776" className="text-[#ffffff] hover:text-yellow-500 font-bold transition-colors">
                 +91 8459192776                 
               </a>
             </div>
