@@ -63,7 +63,7 @@ const HeroSection = () => {
             </Link>
           </div>
           
-          <div className="hidden md:block relative w-1/2 h-full">
+          <div className="hidden md:block relative w-2/3 h-full mr-[-100px]">
             <Image
               src={HomeBanner1}
               alt="Vishwaraj Travels Bus"
