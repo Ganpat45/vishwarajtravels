@@ -48,7 +48,7 @@ const HeroSection = () => {
               Anytime,<br />
               Anywhere
             </h1>
-            <p className="text-xl mb-12">
+            <p className="text-xl font-semibold mb-12">
               Safe, modern, and affordable bus services designed for rural
               and city commuters. Experience comfort and reliability with
               Vishwaraj Travels.
