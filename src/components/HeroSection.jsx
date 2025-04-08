@@ -88,12 +88,13 @@ const HeroSection = () => {
               </svg>
             </div>
             <div className="ml-3 text-center">
-              <h1 className="text-xs sm:text-sm md:text-xl font-bold opacity-80">Call for detailed information</h1>
+              <h1 className="text-xs sm:text-sm md:text-xl font-semibold opacity-80">Call for detailed information</h1>
               <p className="text-lg sm:text-xl md:text-3xl font-bold text-white">+91 8459192776</p>
             </div>
           </div>
         </div>
 
+       
         <div className="bg-white p-4 sm:p-6 shadow-md w-full md:w-3/4 rounded-lg">
           <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-3 sm:mb-4 md:mb-6">Book Your Journey Now</h2>
 
