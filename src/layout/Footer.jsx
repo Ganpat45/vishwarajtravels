@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
      
           <div className="mb-6 md:mb-0">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center space-x-4">
               <Image
                 src={Logo}
                 alt="Logo"
@@ -66,14 +66,14 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4 md:mb-6 ">Get In Touch</h3>
             <div className="flex items-center mb-3 md:mb-4">
               <FaPhoneAlt className=" text-yellow-500 mr-2 flex-shrink-0" size={24} /> 
-              <a href="tel:+918459192776" className="text-[#ffffff] hover:text-yellow-500 font-bold transition-colors">
+              <a href="tel:+918459192776" className="text-[#ffffff] hover:text-yellow-500  text-xl font-bold transition-colors">
                 +91 8459192776                 
               </a>
             </div>
 
             <div className="flex items-center mb-3 md:mb-4">
               <MdEmail className="text-yellow-500 mr-2 flex-shrink-0" size={24} /> 
-              <a href="mailto:abhaydikshit@rediffmail.com" className="text-xltext-[#ffffff] hover:text-yellow-500 font-semibold transition-colors break-all">
+              <a href="mailto:abhaydikshit@rediffmail.com" className="text-xl text-[#ffffff] hover:text-yellow-500 font-bold transition-colors break-all">
                 abhaydikshit@rediffmail.com
               </a>
             </div>
@@ -82,7 +82,7 @@ const Footer = () => {
               <IoLocationSharp className=" text-yellow-500 mr-2 flex-shrink-0" size={24} /> 
               <a 
                 href="https://www.google.com/maps/place/Egniol+Group+of+Companies" 
-                className="text-xl text-[#ffffff] hover:text-yellow-500 font-semibold transition-colors break-all"
+                className="text-xl text-[#ffffff] hover:text-yellow-500 font-bold transition-colors break-all"
               >
                 AT Post Mardi, Tal- Man, Satara, Maharashtra, India - 415508
               </a>
@@ -91,17 +91,17 @@ const Footer = () => {
 
           <div className="mb-6 md:mb-0 flex flex-col">
             <h4 className="text-2xl font-bold mb-4 md:mb-6">Social</h4>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 ">
               <a href="https://www.facebook.com/Egniol/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <FaFacebook className="text-white hover:text-[#D51E00] transition-colors" size={36} /> 
+                <FaFacebook className=" hover:bg-[#EAA10B] " size={40} /> 
               </a>
 
               <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <FaTwitter className="text-white hover:text-[#1DA1F2] transition-colors" size={36} /> 
+                <FaTwitter className=" hover:bg-[#EAA10B]" size={40} /> 
               </a>
 
               <a href="https://www.youtube.com/channel/yourchannel" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                <FaYoutube className="text-white hover:text-[#FF0000] transition-colors" size={36} /> 
+                <FaYoutube className="hover:bg-[#EAA10B]" size={40} /> 
               </a>
             </div>
           </div>
