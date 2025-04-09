@@ -19,7 +19,7 @@ const BuseSection = () => {
       </div>
       
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 sm:px-8 md:px-12 max-w-4xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6 md:mb-8">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-4 sm:mb-6 md:mb-8">
           Affordable & Modern Comfort
         </h2>
         

@@ -127,7 +127,7 @@ const HeroSection = () => {
               </div>
 
               <div>
-                <label htmlFor="date" className="block text-black mb-2 text-2xl font-bold">When</label>
+                <label htmlFor="date" className="block text-black mb-2 text-2xl font-bold">Date</label>
                 <input
                   type="date"
                   id="date"

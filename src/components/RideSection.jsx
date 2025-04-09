@@ -24,11 +24,11 @@ const RideSection = () => {
         <section className="mt-8 md:mt-16 max-w-4xl">
           <h3 className="text-yellow-400 font-bold mb-6">The Best Travel Choice</h3>
           
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-3xl md:text-4xl font-bold mb-6">
             Why Ride With Vishwaraj?
           </h1>
           
-          <p className="text-2xl mb-12">
+          <p className="text-xl mb-12">
             Our buses are affordable, comfortable, and always on time. Here's what makes us special:
             great service, excellent safety measures, and convenient travel options that fit your needs.
           </p>

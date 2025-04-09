@@ -42,7 +42,7 @@ const FAQ = () => {
     <div className="bg-[#FFFFFF] w-full mt-[50px] mx-auto py-16 px-4 rounded-xl">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="space-y-8 w-full text-space-start p-6 mb-4">
-          <h2 className="text-4xl font-bold text-[#0E264E] mb-6">
+          <h2 className="text-3xl font-bold text-[#0E264E] mb-6">
             Got Questions? We've
             <p>Got Answers!</p>
           </h2>
@@ -52,7 +52,7 @@ const FAQ = () => {
           </p>
 
           <div className="relative bg-gray-100 p-8 mb-6 hover:bg-indigo-50 hover:shadow-md transition-all rounded-lg">
-            <h2 className="text-4xl font-bold text-indigo-900 mb-4">
+            <h2 className="text-3xl font-bold text-indigo-900 mb-4">
               <p>How do I book a ride</p>
               <p>with Vishwaraj</p>
               Travels?

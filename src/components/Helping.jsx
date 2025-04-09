@@ -9,7 +9,7 @@ const Helping = () => {
       <div className="flex flex-col md:flex-row gap-8 items-center">
     
         <div className="w-full md:w-1/2">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-indigo-900 mb-4 sm:mb-6 md:mb-8">
+          <h1 className="text-2xl sm:text-2xl md:text-3xl font-bold text-indigo-900 mb-4 sm:mb-6 md:mb-8">
             Helping You Get There, Every Time
           </h1>
           
@@ -20,19 +20,19 @@ const Helping = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-              <h2 className="text-lg sm:text-xl font-bold text-indigo-900 mb-3">
+              <h2 className="text-lg sm:text-2xl font-bold text-indigo-900 mb-3">
                 Reliable Bus Service, Always On Time
               </h2>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-xl">
                 Our buses run on time, are well-maintained, and driven by skilled drivers so you can ride worry-free. We take pride in providing timely services, ensuring you never have to worry about missing a bus.
               </p>
             </div>
             
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-              <h2 className="text-lg sm:text-xl font-bold text-indigo-900 mb-3">
+              <h2 className="text-lg sm:text-2xl font-bold text-indigo-900 mb-3">
                 Affordable & Modern Comfort
               </h2>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-xl">
                 Travel without spending too much! Our buses have AC, GPS, and comfy seats at prices you can afford. Enjoy a premium experience without the premium price tag.
               </p>
             </div>
