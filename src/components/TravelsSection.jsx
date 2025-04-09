@@ -55,7 +55,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-start  mb-8">
           <div className="mb-6 md:mb-0 md:w-1/3">
             <h2 className="text-yellow-500 font-bold text-xl mb-2">Who We Are</h2>
-            <h1 className="text-3xl font-bold text-indigo-900 leading-tight">
+            <h1 className="text-2xl font-bold text-indigo-900 leading-tight">
               Making Travel<br />Easy Since 2015
             </h1>
           </div>

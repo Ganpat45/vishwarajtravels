@@ -76,7 +76,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="z-1 mt-[-90px] mb-[100px] w-full flex flex-col md:flex-row justify-between px-4 sm:px-6 md:px-8 space-y-6 sm:space-y-8 md:space-y-0">
+      <div className="z-1 mt-[-60px] mb-[100px] w-full flex flex-col md:flex-row justify-between px-4 sm:px-6 md:px-8 space-y-6 sm:space-y-8 md:space-y-0">
        
         <div className="bg-gradient-to-br from-purple-800 to-purple-600 text-white p-4 sm:p-6 md:p-8 w-full md:w-1/4 rounded-lg shadow-md">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-white">Ready to Travel?</h2>
@@ -96,44 +96,44 @@ const HeroSection = () => {
 
        
         <div className="bg-white p-4 sm:p-6 shadow-md w-full md:w-3/4 rounded-lg">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-3 sm:mb-4 md:mb-6">Book Your Journey Now</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-3 sm:mb-4 md:mb-6">Book Your Journey Now</h2>
 
           <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6 md:space-y-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               <div>
-                <label htmlFor="from" className="block text-black mb-2 text-2xl font-bold">From</label>
+                <label htmlFor="from" className="block text-black mb-2 text-xl font-bold">From</label>
                 <input
                   type="text"
                   id="from"
                   name="from"
                   placeholder="Location"
-                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-2xl focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-xl focus:outline-none focus:ring-2 focus:ring-purple-500"
                   value={formData.from}
                   onChange={handleChange}
                 />
               </div>
 
               <div>
-                <label htmlFor="to" className="block text-black mb-2 text-2xl font-bold">To</label>
+                <label htmlFor="to" className="block text-black mb-2 text-xl font-bold">To</label>
                 <input
                   type="text"
                   id="to"
                   name="to"
                   placeholder="Location"
-                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-2xl focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-xl focus:outline-none focus:ring-2 focus:ring-purple-500"
                   value={formData.to}
                   onChange={handleChange}
                 />
               </div>
 
               <div>
-                <label htmlFor="date" className="block text-black mb-2 text-2xl font-bold">Date</label>
+                <label htmlFor="date" className="block text-black mb-2 text-xl font-bold">Date</label>
                 <input
                   type="date"
                   id="date"
                   name="date"
                   placeholder="dd-mm-yyyy"
-                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-2xl focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-xl focus:outline-none focus:ring-2 focus:ring-purple-500"
                   value={formData.date}
                   onChange={handleChange}
                 />
@@ -142,26 +142,26 @@ const HeroSection = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 font-bold">
               <div>
-                <label htmlFor="email" className="block text-black mb-2 text-2xl font-bold">Email</label>
+                <label htmlFor="email" className="block text-black mb-2 text-xl font-bold">Email</label>
                 <input
                   type="email"
                   id="email"
                   name="email"
                   placeholder="Email"
-                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-2xl focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-xl focus:outline-none focus:ring-2 focus:ring-purple-500"
                   value={formData.email}
                   onChange={handleChange}
                 />
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-black mb-2 text-2xl font-bold">Phone No</label>
+                <label htmlFor="phone" className="block text-black mb-2 text-xl font-bold">Phone No</label>
                 <input
                   type="tel"
                   id="phone"
                   name="phone"
                   placeholder="Phone No"
-                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-2xl focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full p-3 border border-gray-200 rounded-md bg-gray-50 text-xl focus:outline-none focus:ring-2 focus:ring-purple-500"
                   value={formData.phone}
                   onChange={handleChange}
                 />
