@@ -27,6 +27,13 @@ const RidesJourneysSection = () => {
       designation: "Designation",
       avatar: T1,
     },
+    {
+      id: 4,
+      text: "Nisi habitasse maximus vehicula consectetuer class fames pharetra phasellus curabitur nulla. Integer ad orci tempor magna vestibulum malesuada lorem.",
+      name: "Jane Smith",
+      designation: "Designation",
+      avatar: T1,
+    },
   ]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,7 +54,7 @@ const RidesJourneysSection = () => {
           
           <div className="w-full md:w-1/2 relative">
             <div className="bg-indigo-900 rounded-lg p-2 shadow-xl relative">
-              <div className="w-full h-64 sm:h-80 md:h-96 relative rounded overflow-hidden">
+              <div className="w-full h-64 sm:h-80 md:h-120 relative rounded overflow-hidden">
                 <Image 
                   src={HappyRides}
                   alt="Person waiting for bus"
@@ -59,7 +66,7 @@ const RidesJourneysSection = () => {
           </div>
 
           <div className="w-full md:w-1/2">
-            <h1 className="text-3xl sm:text-4xl font-bold text-blue-500">
+            <h1 className="text-2xl sm:text-3xl font-bold text-blue-500">
               Happy Riders, Satisfied Journeys
             </h1>
 

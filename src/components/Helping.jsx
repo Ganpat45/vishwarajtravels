@@ -9,7 +9,7 @@ const Helping = () => {
       <div className="flex flex-col md:flex-row gap-8 items-center">
     
         <div className="w-full md:w-1/2">
-          <h1 className="text-2xl sm:text-2xl md:text-3xl font-bold text-indigo-900 mb-4 sm:mb-6 md:mb-8">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-indigo-900 mb-4 sm:mb-6 md:mb-8">
             Helping You Get There, Every Time
           </h1>
           
