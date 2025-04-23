@@ -87,7 +87,7 @@ const RidesJourneysSection = () => {
                       key={testimonial.id}
                       className="flex-shrink-0 w-full bg-white p-6 rounded-lg shadow-md mb-6 sm:mb-8"
                     >
-                      <p className="text-gray-700 italic mb-4">{testimonial.text}</p>
+                      <p className="text-gray-700 italic text-xl mb-4">{testimonial.text}</p>
                       <div className="flex items-center">
                         <div className="w-16 h-16 rounded-full overflow-hidden mr-4 bg-gray-200">
                           <Image
@@ -100,7 +100,7 @@ const RidesJourneysSection = () => {
                         </div>
                         <div>
                           <h3 className="font-bold text-indigo-900 text-lg">{testimonial.name}</h3>
-                          <p className="text-sm text-gray-600">{testimonial.designation}</p>
+                          <p className="text-base text-gray-600">{testimonial.designation}</p>
                         </div>
                       </div>
                     </div>
