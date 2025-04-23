@@ -108,7 +108,7 @@ const FAQ = () => {
                   ${openIndex === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
                 aria-hidden={openIndex !== index}
               >
-                <div className="px-6 py-5 text-gray-700 text-xl font-semibold border-t border-gray-100">
+                <div className="px-6 py-5 text-gray-700 text-lg font-semibold border-t border-gray-100">
                   {faq.answer}
                 </div>
               </div>

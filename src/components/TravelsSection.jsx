@@ -85,7 +85,7 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-2xl font-bold text-indigo-900  hover:text-[#000000] mb-4">{service.title}</h3>
-              <p className="text-gray-600 text-xl font-bold">{service.description}</p>
+              <p className="text-gray-600 text-lg ">{service.description}</p>
             </div>
           ))}
         </div>

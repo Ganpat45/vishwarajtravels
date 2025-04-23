@@ -43,7 +43,7 @@ const RideSection = () => {
               </div>
               <div>
                 <h2 className="text-2xl font-bold mb-2">Low Fares, Big Savings</h2>
-                <p className="text-xl font-semibold">
+                <p className="text-lg font-semibold">
                   Travel without breaking the bank! We keep our prices budget-friendly while
                   ensuring excellent service and convenience.
                 </p>
@@ -59,7 +59,7 @@ const RideSection = () => {
               </div>
               <div>
                 <h2 className="text-2xl font-bold mb-2">Travel in Comfort, Arrive Relaxed</h2>
-                <p className="text-xl font-semibold">
+                <p className="text-lg font-semibold">
                   AC buses, comfy seats, and GPS tracking for a smooth journey. Enjoy a relaxed
                   and pleasant travel experience every time you ride with us.
                 </p>
@@ -75,7 +75,7 @@ const RideSection = () => {
               </div>
               <div>
                 <h2 className="text-2xl font-bold mb-2">Your Safety First, Always</h2>
-                <p className="text-xl font-semibold">
+                <p className="text-lg font-semibold">
                   Our trained drivers and well-maintained buses ensure a safe trip every time. We
                   follow strict safety standards to give you peace of mind.
                 </p>
@@ -91,7 +91,7 @@ const RideSection = () => {
               </div>
               <div>
                 <h2 className="text-2xl font-bold mb-2">Local and Reliable, Made for You</h2>
-                <p className="text-xl font-semibold">
+                <p className="text-lg font-semibold">
                   We serve rural areas and small towns, making sure everyone has a good travel
                   option. Our services are built with your needs in mind.
                 </p>
