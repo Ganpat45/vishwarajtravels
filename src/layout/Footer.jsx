@@ -40,22 +40,22 @@ const Footer = () => {
             <h3 className="text-2xl  font-bold mb-4 md:mb-6">Useful Links</h3>
             <ul>
               <li className="mb-2">
-                <a href="/" className="text-yellow-500 transition duration-300 text-xl">
+                <a href="/" className="text-yellow-500  text-xl">
                   Home
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/about-us" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/about-us" className="hover:text-yellow-500  text-xl">
                   About Us
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/services" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/services" className="hover:text-yellow-500 text-xl">
                   Services
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/contact-us" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/contact-us" className="hover:text-yellow-500  text-xl">
                   Contact Us
                 </a>
               </li>
@@ -66,14 +66,14 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4 md:mb-6 ">Get In Touch</h3>
             <div className="flex items-center mb-3 md:mb-4">
               <FaPhoneAlt className=" text-yellow-500 mr-2 flex-shrink-0" size={24} /> 
-              <a href="tel:+918459192776" className="text-[#ffffff] hover:text-yellow-500  text-xl font-bold transition-colors">
+              <a href="tel:+918459192776" className="text-[#ffffff] hover:text-yellow-500  text-xl ">
                 +91 8459192776                 
               </a>
             </div>
 
             <div className="flex items-center mb-3 md:mb-4">
               <MdEmail className="text-yellow-500 mr-2 flex-shrink-0" size={24} /> 
-              <a href="mailto:abhaydikshit@rediffmail.com" className="text-xl text-[#ffffff] hover:text-yellow-500 font-bold transition-colors break-all">
+              <a href="mailto:abhaydikshit@rediffmail.com" className="text-xl text-[#ffffff] hover:text-yellow-500 ">
                 abhaydikshit@rediffmail.com
               </a>
             </div>
@@ -82,7 +82,7 @@ const Footer = () => {
               <IoLocationSharp className=" text-yellow-500 mr-2 flex-shrink-0" size={24} /> 
               <a 
                 href="https://www.google.com/maps/place/Egniol+Group+of+Companies" 
-                className="text-xl text-[#ffffff] hover:text-yellow-500 font-bold transition-colors break-all"
+                className="text-xl text-[#ffffff] hover:text-yellow-500 "
               >
                 AT Post Mardi, Tal- Man, Satara, Maharashtra, India - 415508
               </a>
